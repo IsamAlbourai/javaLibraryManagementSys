@@ -99,6 +99,7 @@ public class LibraryMenu {
                     break;
 
                 case 9:
+                    System.out.print("Exiting...");
                     return;
             }
         }
