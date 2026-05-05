@@ -1,4 +1,4 @@
-gpublic class Book extends LibraryItem {
+public class Book extends LibraryItem {
     private String author;
 
     public Book(int id, String title, String author) {
@@ -9,7 +9,6 @@ gpublic class Book extends LibraryItem {
     @Override
     public String getDetails() {
         return "Book ID: " + getId() + ", Title: " + getTitle() +
-                ", Author: " + author +
-                ", Available: " + isAvailable();
+                ", Author: " + author + ", Available: " + isAvailable();
     }
 }
