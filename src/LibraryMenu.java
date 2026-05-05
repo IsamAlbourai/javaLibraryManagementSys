@@ -14,6 +14,7 @@ public class LibraryMenu {
 
     public void start() {
         while (true) {
+            System.out.println("---------------- Library Menu -----------------");
             System.out.println("\n1. Add Book");
             System.out.println("2. Add Magazine");
             System.out.println("3. List Available Items");
