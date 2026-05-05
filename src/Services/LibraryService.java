@@ -1,3 +1,7 @@
+package Services;
+
+import Entities.LibraryItem;
+
 import java.util.ArrayList;
 
 public class LibraryService {

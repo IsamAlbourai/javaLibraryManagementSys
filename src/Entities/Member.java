@@ -1,3 +1,5 @@
+package Entities;
+
 import java.util.ArrayList;
 
 public class Member {
@@ -26,8 +28,8 @@ public class Member {
     }
 
     public String getDetails() {
-        return "Member ID: " + id + ", Name: " + name +
-                ", Address: " + address.getFullAddress();
+        return "Entities.Member ID: " + id + ", Name: " + name +
+                ", Entities.Address: " + address.getFullAddress();
     }
 
     public void showBorrowedItems() {

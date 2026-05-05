@@ -1,3 +1,8 @@
+package Services;
+
+import Entities.LibraryItem;
+import Entities.Member;
+
 public class BorrowService {
     private LibraryService libraryService;
     private MemberService memberService;
@@ -12,7 +17,7 @@ public class BorrowService {
         LibraryItem item = libraryService.findItemById(itemId);
 
         if (member == null || item == null) {
-            System.out.println("Member or Item not found.");
+            System.out.println("Entities.Member or Item not found.");
             return;
         }
 
@@ -31,7 +36,7 @@ public class BorrowService {
         LibraryItem item = libraryService.findItemById(itemId);
 
         if (member == null || item == null) {
-            System.out.println("Member or Item not found.");
+            System.out.println("Entities.Member or Item not found.");
             return;
         }
 

@@ -1,3 +1,5 @@
+package Entities;
+
 public class Magazine extends LibraryItem {
     private int issueNumber;
 
@@ -11,7 +13,7 @@ public class Magazine extends LibraryItem {
 
     @Override
     public String getDetails() {
-        return "Magazine ID: " + getId() + ", Title: " + getTitle() +
+        return "Entities.Magazine ID: " + getId() + ", Title: " + getTitle() +
                 ", Issue: " + issueNumber + ", Available: " + isAvailable();
     }
 }

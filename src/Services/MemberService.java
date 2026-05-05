@@ -1,3 +1,7 @@
+package Services;
+
+import Entities.Member;
+
 import java.util.ArrayList;
 
 public class MemberService {

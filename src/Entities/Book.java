@@ -1,3 +1,5 @@
+package Entities;
+
 public class Book extends LibraryItem {
     private String author;
 
@@ -8,7 +10,7 @@ public class Book extends LibraryItem {
 
     @Override
     public String getDetails() {
-        return "Book ID: " + getId() + ", Title: " + getTitle() +
+        return "Entities.Book ID: " + getId() + ", Title: " + getTitle() +
                 ", Author: " + author + ", Available: " + isAvailable();
     }
 }

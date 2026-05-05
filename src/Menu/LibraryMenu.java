@@ -1,3 +1,13 @@
+package Menu;
+
+import Entities.Address;
+import Entities.Book;
+import Entities.Magazine;
+import Entities.Member;
+import Services.BorrowService;
+import Services.LibraryService;
+import Services.MemberService;
+
 import java.util.Scanner;
 
 public class LibraryMenu {
