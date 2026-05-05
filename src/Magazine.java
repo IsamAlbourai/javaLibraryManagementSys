@@ -3,6 +3,9 @@ public class Magazine extends LibraryItem {
 
     public Magazine(int id, String title, int issueNumber) {
         super(id, title);
+        if (issueNumber <= 0) {
+            throw new IllegalArgumentException("Issue number must be positive.");
+        }
         this.issueNumber = issueNumber;
     }
 
